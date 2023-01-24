@@ -1,5 +1,6 @@
-#include <bits/> 
-//헤더파일 include 시키다.
+#include <bits/stdc++.h>> 
+//모든 C++ 표준 라이브러리가 포함된 헤더파일
+//헤더파일 include 시키다.(프로그램에 포함 시키다)
 using namespace std; 
 //std라는 네임 스페이스를 사용
 //네임 스페이스 : 변수명에 범위 걸어 놓는 것 

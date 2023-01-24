@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <bits/> 
 //헤더파일 include 시키다.
 using namespace std; 
 //std라는 네임 스페이스를 사용

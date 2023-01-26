@@ -3,14 +3,20 @@
 using namespace std;
 //std라는 namespace를 사용
 //네임스페이스는 변수명 중복 방지를 위해 변수명에 범위를 걸어 놓는 것
-string a; 
+string a,b; 
 //string이라는 타입을 가진 a라는 변수
 int main(){
-  cin >> a; 
-  //변수 a를 입력 받음
+  cin >> a >> b; 
+  //변수 a,b 입력받음
   cout << a << "\n"; 
   //변수 a를 출력함
+  cout << b << "\n"; 
+  //변수 b를 출력함
   return 0; 
   //main함수 종료
   //프로세스 정상적 마무리
 }
+//개행문자를 넣어 2개의 문자열을 입력
+//입력: hello world
+//출력: hello
+//      word

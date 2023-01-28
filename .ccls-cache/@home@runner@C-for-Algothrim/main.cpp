@@ -10,4 +10,4 @@ int main(){
   return 0;
 }
 //1.2333이라는 double 타입변수 return
-//선언, 정의 
+//선언, 정의 한꺼번에

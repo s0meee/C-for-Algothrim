@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-int ret = 1;
-void a() {
-  ret = 2;
-  cout << ret << "\n";
-  return;
+double a(){
+  return 1.2333;
 }
-int main() {
-  a();
+//a라는 함수 double 타입 정의
+int main(){
+  double ret = a();
+  cout << ret << '\n';
   return 0;
 }
+//1.2333이라는 double 타입변수 return
+//선언, 정의 

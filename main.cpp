@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
-  double ret = a();
-  cout << ret << "\n";
+int main() {
+  char a = 'a';
+  cout << a << "\n";
   return 0;
 }
-
-double a(){
-  return 1.2333;
-}
+//문자 a선언
+//a출력

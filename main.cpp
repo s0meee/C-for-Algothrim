@@ -1,28 +1,22 @@
 #include <bits/stdc++.h>
-// C++의 모든 표준라이브러리가 포함된 헤더파일을 포함 시킴
-//프로그램에 포함
+//C++의 모든 표준라이브러리가 포함된 헤더파일을 include 시킨다.(프로그램에 포함 시킨다)
 using namespace std;
-// std라는 namespace를 사용
-//네임스페이스 - 변수명 중복 방지를 위해 변수명에 범위를 걸어 놓은 것
-int a = 1;
-//int라는 타입을 가진 a라는 변수에 1 할당
-char s = 'a';
-//char이라는 타입을 가진 s라는 변수에 a 할당
-string str = "어벤져스";
-//string 이라는 타입을 가진 str라는변수에 어벤져스 할당
-double b = 1.223123;
-//double 이라는 타입을 가진 b라는 변수에 1.223123 할당
-
-int main() {
-  printf("아이엠 아이언맨 : %d\n", a);
-  //%d, int 타입
-  printf("아이엠 아이언맨 : %c\n", s);
-  //%c, char 타입
-  printf("아이엠 아이언맨 : %s\n", str.c_str());
-  //%s, string 타입
-  printf("아이엠 아이언맨 : %lf\n", b);
-  //%lf, double 타입
-  return 0;
+//std라는 namespace를 사용
+//네임스페이스는 변수명 중복 방지를 위해 변수명에 범위를 걸어 놓는 것
+string a,b; 
+//string이라는 타입을 가진 a라는 변수
+int main(){
+  cin >> a >> b; 
+  //변수 a,b 입력받음
+  cout << a << "\n"; 
+  //변수 a를 출력함
+  cout << b << "\n"; 
+  //변수 b를 출력함
+  return 0; 
+  //main함수 종료
   //프로세스 정상적 마무리
-  //main 함수 종료
 }
+//개행문자를 넣어 2개의 문자열을 입력
+//입력: hello world
+//출력: hello
+//      word

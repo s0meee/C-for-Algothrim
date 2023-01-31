@@ -1,19 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+vector<string> split(string input, string delimiter) {
+vector<string> ret;
+long long pos = 0;
+string token = "";
+while ((pos = input.find(delimiter)) != string::npos) {
+token = input.substr(0, pos);
+ret.push_back(token);
+input.erase(0, pos + delimiter.length());
+}
+ret.push_back(input);
+return ret;
+}
 int main(){
-string a = "It's hard to have a sore leg";
-reverse(a.begin(), a.end());
-cout << a << '\n';
-  //reverse(문자열 첫번 째, 문자열 마지막 째)
-  //gel eros a evah ot drah s'tI
-reverse(a.begin(), a.end());
-cout << a << '\n';
-  //It's hard to have a sore leg
-reverse(a.begin() + 3, a.end());
-cout << a << '\n';
-  //It's hard to have a sore leg
-  //0123 
-  //3번째 s부터 뒤집기 시작
-  //It'gel eros a evah ot drah s
-return 0;
+string s = "안녕하세요 큰돌이는 킹갓제너럴 천재입니다 정말이에요!", d = " ";
+vector<string> a = split(s, d);
+for(string b : a) cout << b << "\n";
 }

@@ -13,7 +13,7 @@ ret.push_back(input);
 return ret;
 }
 int main(){
-string s = "안녕하세요 큰돌이는 킹갓제너럴 천재입니다 정말이에요!", d = " ";
+string s = "안녕하세요 저는 00입니다.!", d = " ";
 vector<string> a = split(s, d);
 for(string b : a) cout << b << "\n";
 }

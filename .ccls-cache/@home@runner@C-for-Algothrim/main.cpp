@@ -1,13 +1,15 @@
-#include<bits/stdc++.h>
-//c++의 모든 표준라이브러리를 포함하는 헤더파일
-//헤더파일을 include시킴
-//프로그램에 포함 시킴
+#include <bits/stdc++.h>
 using namespace std;
-//std라는 네임스페이스를 사용
-//네임스페이스 : 변수명의 중복을 방지하기 위해 변수명의 범위 걸어 놓는 것
-string a[2] = {"out of time", "i love you"};
 int main(){
-for(string b : a) cout << b << '\n';
-  //vector a내의 요소인 string 타입의 요소를 탐색한다
-for(int i = 0; i < 2; i++) cout << a[i] << "\n";
+string s = "1";
+string s2 = "amumu";
+cout << atoi(s.c_str()) << '\n';
+cout << atoi(s2.c_str()) << '\n';
+  //atoi(변수명.c_str)
+  //atoi(s.ctr())
+  //입력받은 문자열이 문자면 0를 반환
+  //입력받은 문자열이 문자가 아닐 경우, 숫자를 반환
+return 0;
 }
+//출력 1
+//0

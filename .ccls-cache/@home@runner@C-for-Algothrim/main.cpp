@@ -1,15 +1,14 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
-string s = "1";
-string s2 = "amumu";
-cout << atoi(s.c_str()) << '\n';
-cout << atoi(s2.c_str()) << '\n';
-  //atoi(변수명.c_str)
-  //atoi(s.ctr())
-  //입력받은 문자열이 문자면 0를 반환
-  //입력받은 문자열이 문자가 아닐 경우, 숫자를 반환
-return 0;
+ios_base::sync_with_stdio(false);
+cin.tie(NULL); cout.tie(NULL);
+int a = -1;
+cout << bool(a) << "\n";
+a = 0;
+cout << bool(a) << "\n";
+a = 3;
+cout << bool(a) << "\n";
 }
-//출력 1
-//0
+//C++은 false, 0
+//0이 아닌 것은 모두 1(true)

@@ -1,19 +1,7 @@
-#include <bits/stdc++.h>
-using namespace std;
-vector<string> split(string input, string delimiter) {
-vector<string> ret;
-long long pos = 0;
-string token = "";
-while ((pos = input.find(delimiter)) != string::npos) {
-token = input.substr(0, pos);
-ret.push_back(token);
-input.erase(0, pos + delimiter.length());
-}
-ret.push_back(input);
-return ret;
-}
-int main(){
-string s = "안녕하세요 큰돌이는 킹갓제너럴 천재입니다 정말이에요!", d = " ";
-vector<string> a = split(s, d);
+for ( range_declaration : range_expression )
+loop_statement
+//범위기반 for 루프
 for(string b : a) cout << b << "\n";
-}
+//vector a내에 있는 요소 string타입의 요소 탐색
+for(int i = 0; i < a.size(); i++) cout << a[i] << "\n"
+  //위의 코드와 같은 의미

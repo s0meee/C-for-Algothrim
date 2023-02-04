@@ -1,14 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-int i;
-string s = "Somi";
 int main(){
-  i = 0;
-  int * a = &i;
-  cout << a << '\n';
-  string * b = &s;
+  string a = "abcda";
+  string * b = &a; //주소를 담은 포인터
   cout << b << '\n';
+  cout << *b << '\n'; // 포인터 역참조 연산자
+  // 값을 참조 함
   return 0;
 }
-//포인터의 크기 고정되지 X
-//1바이트 짜리의 char타입 변수라고 해서 포인터의 크기가 1은 아님 

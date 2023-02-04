@@ -1,14 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-int a[3] = {1, 2, 3};
-int main() {
-  int * b = &a[0];
-  int * c = a;
-  int * d = (a+1);
-  cout << b << '\n';
-  cout << c << '\n';
-  cout << d << '\n';
-  cout << &a[1] << '\n';
+int a;
+int b = 0;
+const int c = 0;
+int main(){
+  static int d;
+  static int e= 0;
   return 0;
 }
-//&a[1] 을 a+1로 표현
+//BSS segment - 데이터영역

@@ -1,7 +1,13 @@
-int a = (int)p * 100
-//타입변환 일어남
-int a = (int)100 * p
-//타입변환 일어나지 않음 
-
-//타입변환 
-//(변환할 타입 ) 기존 변수임을 유의하자
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+  char a = 'a';
+  // a 는 숫자 97이다.
+  cout << (int)a << '\n'; //a를 정수형으로 변환
+  cout << (int)a - 97 << '\n'; 
+  //정수형으로 변환한 a
+  // 97 - 97 진행
+  // 결과 0 
+  cout << (int)a - 'a' << '\n';
+  //
+}

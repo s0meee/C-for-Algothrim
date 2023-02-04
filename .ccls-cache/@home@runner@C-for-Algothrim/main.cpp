@@ -1,13 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+int i;
 int main(){
-  char a = 'a';
-  // a 는 숫자 97이다.
-  cout << (int)a << '\n'; //a를 정수형으로 변환
-  cout << (int)a - 97 << '\n'; 
-  //정수형으로 변환한 a
-  // 97 - 97 진행
-  // 결과 0 
-  cout << (int)a - 'a' << '\n';
-  //
+  cout << &i << '\n';
+  return 0;
 }
+//&연산자 변수의 주소를 얻을 수 있음
+//메모리주소 ㅣ 변수가 사용하는 메모리 주소의 첫번째를 가리킴 

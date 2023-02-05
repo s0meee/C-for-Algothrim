@@ -1,11 +1,8 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-int a;
-int b = 0;
-const int c = 0;
+int a = 1;
+const int b = 2;
 int main(){
-  static int d;
-  static int e= 0;
-  return 0;
-}
-//BSS segment - 데이터영역
+static int c = 3;
+return 0;
+} //Datasegment
